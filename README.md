@@ -24,10 +24,12 @@ To adjust the speed of the animation, change the number in the call.
 The call is at line 741
 
 When running the program, play proceeds as follows:
+```
 >(what you type)
 --> output
-
+```
 The following is how a human plays against the program
+```
 >(absStartGame)
 --> > Is the force strong with this one?
 --> #t
@@ -50,6 +52,7 @@ the conclusion of the game.
 >(absShowGame)
 >(absMakeMove)
 >(absShowGame)
+```
 there are some win checking functions, as follows:
     - (absWinP <column>) will test the current game board to see
                          if the last move resulted in a win
@@ -61,7 +64,7 @@ there are some win checking functions, as follows:
 During the tournament, play was as follows, with the class checking
 for wins by eye. Whoever had the better looking game board had
 their display function used. 
-
+```
 >(aaaStartGame)
 >(bbbStartGame)
 >(aaaShowGame)
@@ -73,4 +76,5 @@ their display function used.
 >(aaaShowGame)               ;show the result of the last move
 >(aaaMarkMove (bbbMakeMove)) ;inverse of the last play
 >(aaaShowGame)               ;show the result of the last move
+```
 the last four functions loop until one of the AI's wins
