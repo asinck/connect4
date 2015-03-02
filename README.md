@@ -21,7 +21,7 @@ Tournament. My program won.
 Note: this program uses animation, and the pause between the frames
 is determined by the call to absKillTime, in the function absShowGame2.
 To adjust the speed of the animation, change the number in the call.
-The call is at line 741
+The call is at line 742
 
 When running the program, play proceeds as follows:
 >(what you type)
