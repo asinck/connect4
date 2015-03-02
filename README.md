@@ -4,15 +4,18 @@
 I wrote this program for my CSC 240 class at Mesa Community College.
 it has been modified slightly to work in Racket; no other changes have 
 been made except for the intro comments.
+
 This program will define several functions to work with a matrix
-and allow a user to play a game of connect four
+and allow a user to play a game of connect four.
+
 The requirements stated that all functions must begin with the 
 programmer's initials; that is why they all begin with 'abs'.
 Also, the first two sections of functions were required to have
 the same name and purpose, although implementation was up to us.
 We were allowed only one variable (besides parameters), and that
 is the game board (absGame). We were only allowed to import one 
-library, a random number generator
+library, a random number generator.
+
 We were also required to have a unique intro message so that we
 could distinguish our program from other students' programs.
 The goal was to have the best AI, and win the class Connect Four 
